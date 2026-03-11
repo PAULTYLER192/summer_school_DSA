@@ -20,3 +20,17 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+# Python/Jupyter artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local virtual env
+.venv/
+
+# Notebook/export logs and generated submissions
+.DS_Store
+.OTTER_LOG
+OTTER_LOG
+*.zip
